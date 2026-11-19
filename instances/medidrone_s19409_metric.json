@@ -1,0 +1,12 @@
+{
+ "triples_checked": 1030301,
+ "rule_as_written": {
+  "max_violation": 0.0,
+  "violating_triples": 0
+ },
+ "neutral_depot": {
+  "max_violation": 149.99991894135587,
+  "violating_triples": 3416
+ },
+ "edges_crossing_from_depot": 52
+}

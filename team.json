@@ -1,0 +1,23 @@
+{
+  "_comment": "Team members and student IDs; run scripts/build_m1.sh after any change",
+  "placeholder": false,
+  "seed_mode": "last4_number",
+  "members": [
+    {
+      "name": "Kubilay Karaca",
+      "student_id": "2364445"
+    },
+    {
+      "name": "Tuana Pektaş",
+      "student_id": "2365096"
+    },
+    {
+      "name": "Elif Ozan",
+      "student_id": "2483185"
+    },
+    {
+      "name": "Zehra Gebeş",
+      "student_id": "2366683"
+    }
+  ]
+}
