@@ -35,7 +35,11 @@ As required by Section 7, the team is fully responsible for the correctness of e
 submitted, including any AI-assisted text, proofs and code, and every member must be able
 to explain every part of the report and code during the oral defense.
 
-## 5. Code origin
+## 5. File origin
+
+Every file in the repository, and who or what produced it.
+
+**Code and scripts**
 
 | File | Origin |
 |---|---|
@@ -46,10 +50,33 @@ to explain every part of the report and code during the oral defense.
 | `src/plot_instance.py` | Written by Claude (AI) |
 | `src/m1_values.py` | Written by Claude (AI) |
 | `scripts/build_m1.sh` | Written by Claude (AI) |
-| `report/m1/m1.tex` | Written by Claude (AI) – first draft of the Milestone 1 report |
 
-Each of these files also carries an origin note in its header. Code that we write ourselves
-or adapt from published pseudocode will be marked the same way (own / adapted from …).
+**Generated output (produced by running the AI-written code above)**
+
+| File | Produced by |
+|---|---|
+| `instances/medidrone_s19409.vrp` | `src/generate_medidrone.py` – our team instance |
+| `instances/medidrone_s19409.json` | `src/generate_medidrone.py` – same instance with extra details |
+| `instances/medidrone_current.txt` | `src/generate_medidrone.py` – name of the current instance |
+| `instances/medidrone_s19409_metric.json` | `src/check_metric.py` – triangle-inequality check |
+| `figures/medidrone_instance.png`, `figures/medidrone_instance.pdf` | `src/plot_instance.py` – map of the instance |
+| `report/m1/values.tex` | `src/m1_values.py` – numbers used in the draft report |
+| `report/m1/m1.pdf` | `scripts/build_m1.sh` – compiled first draft of the Milestone 1 report |
+
+**Documents and configuration**
+
+| File | Origin |
+|---|---|
+| `report/m1/m1.tex` | Written by Claude (AI) – first draft of the Milestone 1 report |
+| `README.md` | Written by Claude (AI) |
+| `requirements.txt` | Written by Claude (AI) |
+| `.gitignore` | Written by Claude (AI) |
+| `team.json` | Written by Claude (AI); names and student IDs provided by the team |
+| `ai_usage.md` | Written by Claude (AI) from information provided by the team; each member checks their own rows |
+
+The code files and `m1.tex` also carry an origin note in their first lines. Files that we
+write ourselves or adapt from published pseudocode will be added to this section and marked
+the same way (own / adapted from …).
 
 ## 6. Detailed log
 

@@ -1,3 +1,4 @@
+<!-- Origin: written by Claude (AI). See ai_usage.md, Section 5. -->
 # medidrone-cvrp
 
 CMP3005 Term Project – Capacitated Vehicle Routing Problem (CVRP) for MediDrone Istanbul:
